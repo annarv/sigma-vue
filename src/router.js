@@ -4,6 +4,16 @@ import Dashboard from './components/Dashboard.vue';
 const routes = [
     {
         path: '/',
+        name: 'home',
+        component: () => import('./components/Home.vue'),
+    },
+    {
+        path: '/charts',
+        name: 'charts',
+        component: () => import('./components/Charts.vue'),
+    },
+    {
+        path: '/dashboard',
         name: 'dashboard',
         component: Dashboard,
     },
