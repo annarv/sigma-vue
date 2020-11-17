@@ -4,7 +4,7 @@
 			<img src="assets/layout/images/avatar_2.png" alt="" />
 		</div>
 		<button class="p-link layout-profile-link" @click="onClick">
-			<span class="username">Николай Завьялов</span>
+			<span class="username">NikiCompany</span>
 			<i class="pi pi-fw pi-cog"></i>
 		</button>
 <!--        <transition name="layout-submenu-wrapper">-->

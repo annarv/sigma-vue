@@ -41,7 +41,7 @@ export default {
 	data() {
 		return {
 			lineData: {
-				labels: ['January', 'February', 'March', 'April', 'May', 'June', 'July'],
+				labels: ['Январь', 'February', 'March', 'April', 'May', 'June', 'July'],
 				datasets: [
 					{
 						label: 'First Dataset',

@@ -46,9 +46,10 @@ export default {
         {
           label: 'Графики', icon: 'pi pi-fw pi-chart-bar', to: '/charts',
           items: [
-            {label: 'График такой', icon: 'pi pi-fw pi-align-left', to: '/chart1'},
-            {label: 'График секой', icon: 'pi pi-fw pi-align-right', to: '/chart2'},
-            {label: 'График не такой', icon: 'pi pi-fw pi-align-center', to: '/chart3'}
+            {label: 'График телефонии', icon: 'pi pi-fw pi-align-left', to: '/Chart1'},
+            {label: 'График прямой', icon: 'pi pi-fw pi-align-right', to: '/chart2'},
+            {label: 'График кривой', icon: 'pi pi-fw pi-align-center', to: '/chart3'},
+            {label: 'График красивОй', icon: 'pi pi-fw pi-align-center', to: '/chart4'}
           ]
         },
         {label: '', icon: '', to: '#'},
